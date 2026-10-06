@@ -1,0 +1,17 @@
+name: BeamShaping
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13.5
+  - numpy
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - matplotlib
+  - jupyterlab
+  - pylablib
+  - pip
+  - pip:
+      - opencv-python
+      - screeninfo
